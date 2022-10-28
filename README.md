@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code](https://your-solution-url.com)
-- Live Site URL: [GitHub Live](https://your-live-site-url.com)
+- Solution URL: [GitHub Code](https://github.com/beqa200/Tip-Calculator-App)
+- Live Site URL: [GitHub Live](https://beqa200.github.io/Tip-Calculator-App/)
 
 ## My process
 
