@@ -1,0 +1,259 @@
+@font-face {
+    font-family: space_mono_regular;
+    src: url("./fonts/SpaceMono-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: space_mono_bold;
+    src: url("./fonts/SpaceMono-Bold.ttf");
+  }
+  
+  body {
+    background: #c5e4e7;
+    margin: 0px;
+    width: 100vw;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header img {
+    margin: 50px;
+  }
+  
+  #main {
+    background: white;
+    border-radius: 25px 25px 0px 0px;
+    padding: 32px;
+    max-width: 336px;
+    margin: auto;
+ 
+  }
+  
+  .bill-input,
+  .people-input {
+    height: 60px;
+    width: 96%;
+  }
+  
+  #main p {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-family: space_mono_regular;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e7a7d;
+  }
+  
+  #main input {
+    text-align: right;
+    width: 100%;
+    max-width: 319px;
+    height: 35px;
+    border: 2px solid #f3f9fa;
+    outline: none;
+    cursor: pointer;
+    background: #f3f9fa;
+    border-radius: 5px;
+    font-family: space_mono_bold;
+    font-size: 24px;
+    line-height: 36px;
+    line-height: 100%;
+    color: #00474b;
+    padding-right: 4%;
+  }
+  
+  .bill-input input::placeholder {
+    font-family: space_mono_regular;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 36px;
+    color: #00474b;
+    opacity: 0.35;
+  }
+  
+  #main input::-webkit-inner-spin-button {
+    appearance: none;
+  }
+  
+  #main input:focus {
+    border: 2px solid #26c2ae;
+  }
+  
+  #main img {
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 10px
+  }
+  
+  #main .tip .for-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 220px;
+  }
+  
+  #main .tip p {
+    margin-top: 40px;
+  }
+  
+  #main .for-flex button {
+    width: 47%;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background: #00474b;
+    color: white;
+    font-family: space_mono_bold;
+    font-size: 24px;
+  }
+  
+  #main .for-flex button {
+    cursor: pointer;
+  }
+  
+  #main .for-flex button:hover {
+    background: #9fe8df;
+  }
+  
+  #main .tip .for-flex input {
+    width: 41%;
+    height: 42px;
+    border: 2px solid #f3f9fa;
+  }
+  
+  #main input:focus {
+    border: 2px solid #26c2ae;
+  }
+  
+  #main .tip input::placeholder {
+    color: #547878;
+  }
+  
+  #main .tip input::-webkit-inner-spin-button {
+    appearance: none;
+  }
+  
+  .people-input input::placeholder {
+    font-family: space_mono_regular;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 36px;
+    color: #00474b;
+    opacity: 0.35;
+  }
+  
+  .people-input div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #main .validation {
+    color: #e17457;
+  }
+  
+  .result {
+    margin-top: 32px;
+    background: #00474b;
+    border-radius: 15px;
+  }
+  
+  .tip-amount,
+  .total {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+  }
+  
+  .tip-amount {
+    padding-top: 39px;
+    margin-bottom: 25px;
+  }
+  
+  #main .p1 {
+    color: #ffffff;
+  }
+  
+  #main .p2 {
+    font-size: 13px;
+  }
+  
+  #main .price {
+    font-family: space_mono_bold;
+    font-size: 32px;
+    color: #26c2ae;
+  }
+  
+  .reset {
+    font-family: space_mono_bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 85%;
+    background: #0d686d;
+    color: #00474b;
+    margin: 35px 25px 24px 25px;
+  }
+  
+  .for-hover {
+    background: #26c2ae;
+  }
+  
+  .for-hover:hover {
+    background-color: #9fe8df;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #main {
+      display: flex;
+      justify-content: space-between;
+      max-width: 850px;
+      border-radius: 25px;
+      padding-bottom: 40px;
+    }
+  
+    .div1 {
+      width: 400px;
+    }
+  
+    .bill-input,
+    .people-input {
+      height: 60px;
+      
+    }
+  
+    #main input {
+      max-width: 99%;
+    }
+  
+    #main .for-flex {
+      max-height: 140px;
+    }
+  
+    #main .tip button {
+      width: 120px;
+    }
+  
+    #main .tip input {
+      max-width: 100px;
+    }
+  
+    .div2 {
+      width: 400px;
+    }
+  
+    .result {
+      height: 103%;
+      margin-top: 0px;
+    }
+  
+    .reset {
+      margin-top: 70px;
+      margin-left: 30px;
+    }
+  }
